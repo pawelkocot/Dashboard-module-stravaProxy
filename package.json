@@ -1,0 +1,9 @@
+{
+  "name": "stravaProxy",
+  "version": "0.0.1",
+  "main": "stravaProxy.js",
+  "private": true,
+  "plugin": {
+    "consumes": ["data"]
+  }
+}
