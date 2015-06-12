@@ -134,6 +134,7 @@ module.exports = function setup(options, imports, register) {
             time_seconds: activity.moving_time,
             date: activity.start_date,
             date_ts: parseInt(moment(activity.start_date).format('X')),
+            date_human: moment(activity.start_date).fromNow(),
             distance: unitConverter.fromMeters(activity.distance).toKilometers(),
             distance_meters: activity.distance
         };
